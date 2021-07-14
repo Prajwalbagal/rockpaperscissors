@@ -1,0 +1,105 @@
+.game{
+    width: 100px;
+    height: 50px;
+    
+    
+    
+}
+.row{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.t1,.t2{
+    flex-basis: 50%;
+    text-align: center;
+    color:white;
+}
+.t5{
+    color:white
+}
+.icon-paper{
+    background: url("../images/icon-paper.svg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding:1.5rem;
+    border:1rem solid hsl(230, 89%, 62%) ;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.icon-rock{
+    background: url("../images/icon-rock.svg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding:1.5rem;
+    background-color: white;
+    border:1rem solid hsl(349, 71%, 52%);
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+
+}
+.icon-scissors{
+    background: url("../images/icon-scissors.svg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding:1.5rem;
+    border:1rem solid hsl(39, 89%, 49%);
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.icon--paper{
+    background: url("../images/icon-paper.svg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding:1.5rem;
+    border:1rem solid hsl(230, 89%, 62%) ;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.icon--rock{
+    background: url("../images/icon-rock.svg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding:1.5rem;
+    background-color: white;
+    border:1rem solid hsl(349, 71%, 52%);
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.icon--scissors{
+    background: url("../images/icon-scissors.svg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding:1.5rem;
+    border:1rem solid hsl(39, 89%, 49%);
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.betw{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
