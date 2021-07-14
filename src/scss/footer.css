@@ -1,0 +1,11 @@
+.btnn{
+    position:absolute;
+    right:10%;
+    bottom: 0;
+    padding: 0.4%;
+}
+.modal{
+    width: 50vw;
+    height: 50vh;
+    justify-self: center;
+}

@@ -1,0 +1,64 @@
+.play{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 10rem;
+    justify-content: center;
+   
+    
+}
+.triangle{
+    position: absolute;
+    align-self: center;
+}
+.paper{
+    display: block;
+    background:url('../images/icon-paper.svg');
+    height:3rem;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding:3rem;
+    border:1rem solid hsl(230, 89%, 62%);
+    border-radius: 50%;
+    transform: translateY(-8rem);
+    
+}
+.paper:hover{
+    transform: translateY(-8rem) scale(1.1);
+}
+.rock{
+    background:url('../images/icon-rock.svg');
+    height:3rem;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding:3rem;
+    border:1rem solid hsl(349, 71%, 52%) ;
+    border-radius: 50%;
+    transform: translateY(7rem) translateX(-8rem);
+    
+
+}
+.rock:hover{
+    transform: translateY(7rem) translateX(-8rem) scale(1.1);
+}
+.scissors{
+    background:url('../images/icon-scissors.svg');
+    background-position-x: center;
+    height:3rem;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding:3rem;
+    border:1rem solid hsl(39, 89%, 49%);
+    border-radius: 50%;
+    transform: translateY(-8rem) translateX(7rem);
+    
+
+}
+.scissors:hover{
+    transform: translateY(-8rem) translateX(7rem) scale(1.1);
+}

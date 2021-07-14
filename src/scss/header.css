@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    width:100%;
+    justify-content: space-between;
+    border:3px solid hsl(217, 16%, 45%);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 2%;
+    margin-left:5%;
+    margin-bottom: 8%;
+    color:white;
+    
+    
+}
+.left{
+       
+    font-size: 2rem;
+    
+}
+.leftleft{
+    text-align: left;
+}
+.right{
+    text-align: center;
+    padding:2% 3%;
+    background-color:white;
+    
+}
+.first{
+    color:hsl(229, 64%, 46%);
+}
+.second{
+    color:hsl(229, 25%, 31%);
+    font-size: 3rem;
+}   
